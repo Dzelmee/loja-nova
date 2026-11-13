@@ -1,8 +1,8 @@
-# NOVA STUDIO — Portfolio Experience V6
+# NOVA STUDIO — Loja demonstrativa
 
-Descubra uma curadoria de essenciais contemporâneos. Estilo, textura e liberdade de escolha.
+Desenvolvi esta loja demonstrativa para trabalhar a experiência de navegação em um e-commerce, combinando uma interface visual com operações de cadastro e consulta de registros.
 
-## Recursos
+## O que implementei
 
 - Aplicação de domínio com cadastro, edição, exclusão, pesquisa, filtro e exportação CSV.
 - API REST em Node.js e persistência demonstrativa em `data/records.json`.
