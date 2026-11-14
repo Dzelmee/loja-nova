@@ -1,27 +1,28 @@
-# NOVA STUDIO — Loja demonstrativa
+# NOVA STUDIO — Experimento de e-commerce
 
-Desenvolvi esta loja demonstrativa para trabalhar a experiência de navegação em um e-commerce, combinando uma interface visual com operações de cadastro e consulta de registros.
+Criei a NOVA STUDIO para trabalhar a experiência de uma loja virtual: navegação, apresentação dos produtos e organização das informações em uma interface com várias seções.
 
-## O que implementei
+Além do visual, quis ter operações reais de cadastro e consulta para não ficar apenas em uma landing page.
 
-- Aplicação de domínio com cadastro, edição, exclusão, pesquisa, filtro e exportação CSV.
-- API REST em Node.js e persistência demonstrativa em `data/records.json`.
-- Layout de múltiplas seções, responsivo, imagens remotas sob licença Unsplash, dark mode persistido no navegador, microinterações e animações scroll-driven com fallback.
-- Navegação por teclado, foco visível, link para pular conteúdo e respeito a `prefers-reduced-motion`.
+## O que tem no projeto
 
-## Execução
+- Cadastro, edição, exclusão, pesquisa e filtros de registros.
+- Exportação em CSV e API REST feita com Node.js.
+- Armazenamento demonstrativo em `data/records.json`.
+- Layout responsivo, tema escuro persistido no navegador e animações ligadas à rolagem.
+- Navegação por teclado, foco visível, link para pular conteúdo e suporte a `prefers-reduced-motion`.
+
+## Como executar
 
 ```bash
 npm test
 npm start
 ```
 
-Acesse http://localhost:3000. Para mudar a porta: `PORT=3001 npm start` (Linux/macOS) ou `$env:PORT=3001; npm start` (PowerShell).
+Acesse `http://localhost:3000`. Para alterar a porta no PowerShell, use `$env:PORT=3001; npm start`.
 
-## Limitações
+## O que é simulado
 
-Projeto demonstrativo sem autenticação, banco de dados de produção ou autorização por usuário. A loja possui checkout simulado sem pagamentos reais. Fotos externas dependem de internet. Dados e estatísticas do painel são derivados dos registros da aplicação; não representam clientes reais.
+O checkout não processa pagamentos reais. O projeto não tem autenticação nem banco de produção, e os dados do painel são demonstrativos. As imagens externas precisam de conexão com a internet.
 
-## Imagens
-
-Veja `CREDITOS-IMAGENS.md`.
+Créditos das fotografias em [CREDITOS-IMAGENS.md](CREDITOS-IMAGENS.md).
